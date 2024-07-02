@@ -29,8 +29,8 @@ def cleaning_data(tahun, kode_kk):
     pdrb_kk['Nama Kab/Kota'] = nama_kk
     pdrb_kk_melt = pd.melt(pdrb_kk, id_vars=['Nama Kab/Kota'], value_vars=lapangan_usaha)
     
-    pdrb_kk_melt.columns = ['Nama Kab/Kota', 'Lapangan Usaha', f'Nilai PDRB {tahun}']
-    pdrb_kk_melt[f'Nilai PDRB {tahun}'] = pdrb_kk_melt[f'Nilai PDRB {tahun}'].astype(float)
+    pdrb_kk_melt.columns = ['Nama Kab/Kota', 'Lapangan Usaha', f'{tahun}']
+    pdrb_kk_melt[f'{tahun}'] = pdrb_kk_melt[f'{tahun}'].astype(float)
     
     dict_result_cleaning = {
         'PDRB DF':pdrb_kk_melt,
