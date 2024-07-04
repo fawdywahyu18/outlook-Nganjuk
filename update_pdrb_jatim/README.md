@@ -12,7 +12,7 @@ Workflow ini dirancang untuk memperbarui data PDRB (Produk Domestik Regional Bru
 
 **2. Perbarui Script `run_pdrb_jatim.py`:**
 + Buka script `run_pdrb_jatim.py` dengan menggunakan Jupyter Notebook.
-+ Ubah list `daftar_tahun` dengan menambahkan tahun terbaru (misalkan `2024`) ke dalam list. List daftar_tahun harus memiliki elemen `2024` di sebelah `2023`.
++ Ubah list `daftar_tahun` dengan menambahkan tahun terbaru (misalkan `2024`) ke dalam list. List `daftar_tahun` harus memiliki elemen `2024` di sebelah `2023`.
 + Simpan perubahan script.
 
 **3. Jalankan Script `run_pdrb_jatim.py`:**
