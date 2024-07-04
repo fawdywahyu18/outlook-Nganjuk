@@ -24,6 +24,7 @@
 + Seluruh hasil evaluasi dan out-of-sample forecast bernilai Milyar Rupiah.
 + Dokumentasi hasil dan evaluasi proyeksi berada di file `Dokumentasi Hasil dan Evaluasi Proyeksi Perekonomian Kabupaten Nganjuk.pdf`.
 + Dokumentasi outlook perekonomian Kabupaten Nganjuk 2024-2027 berada di file `Dokumentasi Outlook Perekonomian Nganjuk 2024 2027.pdf`.
++ Dokumentasi data dan metodologi proyeksi perekonomian dan analisis harga Kabupaten Nganjuk berada di file `Dokumentasi Data dan Metodologi Proyeksi Perekonomian dan Analisis Harga Nganjuk.pdf`
 
 **Informasi Tambahan:**
 + Workflow ini dirancang untuk memproyeksikan PDRB total, industri pengolahan, dan sektor pertanian Kabupaten Nganjuk.
