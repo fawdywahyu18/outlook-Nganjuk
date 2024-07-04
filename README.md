@@ -16,7 +16,7 @@
 **3. Eksekusi Script R**
 + Jalankan script `run_pdrb_nganjuk.R` untuk melakukan proyeksi dan evaluasi.
 
-**4. Hasil Proyeksi**
+**4. Hasil Evaluasi dan Proyeksi**
 + Evaluasi: Hasil evaluasi proyeksi disimpan dalam file Excel di folder `Export`.
 + Out-of-Sample Forecast: Hasil out-of-sample forecast disimpan dalam file Excel di folder `Export`.
 
