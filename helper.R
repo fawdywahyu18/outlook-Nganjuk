@@ -20,8 +20,8 @@ evaluasi_pvar = function(pdrb_jatim_input, nhor_input) {
     stop('nhor_input seharusnya bilang bulat/integer positif')
   }
   
-  if (round(nhor_input, 0) > 3 | round(nhor_input, 0) < 0) {
-    stop('nhor_input hanya diperbolehkan minimal bernilai 0 dan maksimal bernilai 3')
+  if (round(nhor_input, 0) > 3 | round(nhor_input, 0) < 1) {
+    stop('nhor_input hanya diperbolehkan minimal bernilai 1 dan maksimal bernilai 3')
   }
   
   jenis_pdrb = unique(pdrb_jatim_input$`Lapangan Usaha`)
@@ -235,8 +235,8 @@ evaluasi_bgvar = function(pdrb_jatim_input, nhor_input) {
     stop('nhor_input seharusnya bilang bulat/integer positif')
   }
   
-  if (round(nhor_input, 0) > 3 | round(nhor_input, 0) < 0) {
-    stop('nhor_input hanya diperbolehkan minimal bernilai 0 dan maksimal bernilai 3')
+  if (round(nhor_input, 0) > 3 | round(nhor_input, 0) < 1) {
+    stop('nhor_input hanya diperbolehkan minimal bernilai 1 dan maksimal bernilai 3')
   }
   
   # pdrb_jatim_input = pdrb_jatim
@@ -423,8 +423,8 @@ evaluasi_favar = function(pdrb_jatim_input, nhor_input) {
     stop('nhor_input seharusnya bilang bulat/integer positif')
   }
   
-  if (round(nhor_input, 0) > 3 | round(nhor_input, 0) < 0) {
-    stop('nhor_input hanya diperbolehkan minimal bernilai 0 dan maksimal bernilai 3')
+  if (round(nhor_input, 0) > 3 | round(nhor_input, 0) < 1) {
+    stop('nhor_input hanya diperbolehkan minimal bernilai 1 dan maksimal bernilai 3')
   }
   
   # pdrb_jatim_input = pdrb_jatim
@@ -596,8 +596,8 @@ out_forecast_pvar = function(pdrb_jatim_input, nhor_input) {
     stop('nhor_input seharusnya bilang bulat/integer positif')
   }
   
-  if (round(nhor_input, 0) > 7 | round(nhor_input, 0) < 0) {
-    stop('nhor_input hanya diperbolehkan minimal bernilai 0 dan maksimal bernilai 7')
+  if (round(nhor_input, 0) > 7 | round(nhor_input, 0) < 1) {
+    stop('nhor_input hanya diperbolehkan minimal bernilai 1 dan maksimal bernilai 7')
   }
   
   jenis_pdrb = unique(pdrb_jatim_input$`Lapangan Usaha`)
@@ -756,8 +756,8 @@ out_forecast_bgvar = function(pdrb_jatim_input, nhor_input) {
     stop('nhor_input seharusnya bilang bulat/integer positif')
   }
   
-  if (round(nhor_input, 0) > 7 | round(nhor_input, 0) < 0) {
-    stop('nhor_input hanya diperbolehkan minimal bernilai 0 dan maksimal bernilai 7')
+  if (round(nhor_input, 0) > 7 | round(nhor_input, 0) < 1) {
+    stop('nhor_input hanya diperbolehkan minimal bernilai 1 dan maksimal bernilai 7')
   }
   
   
