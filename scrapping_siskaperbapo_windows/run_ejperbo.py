@@ -4,7 +4,7 @@ running scrapping siskaperbapo
 @author: fawdywahyu
 """
 
-from ejperbo_edited import _market_parse, query_months
+from ejperbo_modules import _market_parse, query_months
 
 import pandas as pd
 import requests
