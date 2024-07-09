@@ -41,12 +41,12 @@ Workflow ini dirancang untuk memperbarui data Siskaperbapo untuk kabupaten dan k
 		+ Kabupaten Blitar = blitarkab
 	  	+ Kabupaten Bondowoso = bondowosokab
    	  	+ Kabupaten Jember = jemberkab
-      	  	+ Kota Kediri = kedirikota
-      	  	+ Kabupaten Madiun = madiunkab
-      	  	+ Kota Malang = malangkota
-      	  	+ Kabupaten Ngawi = ngawikab
-      	  	+ Kabupaten Pamekasan = pamekasankab
-      	  	+ Kabupaten Ponorogo = ponorogokab
-      	  	+ Kabupaten Sidoarjo = sidoarjokab
-      	  	+ Kabupaten Sumenep = sumenepkab
+		+ Kota Kediri = kedirikota
+		+ Kabupaten Madiun = madiunkab
+		+ Kota Malang = malangkota
+		+ Kabupaten Ngawi = ngawikab
+		+ Kabupaten Pamekasan = pamekasankab
+		+ Kabupaten Ponorogo = ponorogokab
+		+ Kabupaten Sidoarjo = sidoarjokab
+		+ Kabupaten Sumenep = sumenepkab
 + File akan otomatis tersimpan dalam bentuk CSV di folder **scrapping_siskaperbapo_windows** sesuai dengan kota/kabupaten yang diunduh.
