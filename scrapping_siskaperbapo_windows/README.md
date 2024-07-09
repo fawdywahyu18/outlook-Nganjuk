@@ -24,18 +24,29 @@ Workflow ini dirancang untuk memperbarui data Siskaperbapo untuk kabupaten dan k
 + Buka file run_ejperbo.py dengan cara:
 	+ tekan **Ctrl+O**
 	+ cari file **run_ejperbo.py** pada folder **scrapping_siskaperbapo_windows**
-	+ sesuaikan tanggal data yang ingin di unduh pada bagian **min_date** dan **max_date**, sesuai rentang waktu 	yang diinginkan
-	+ sesuaikan kota/kabupaten pada bagian **region**, sesuai dengan data kota/kabupaten yang ingin di unduh. 	Pasktikan penamaan kota/kabupaten sesuai dengan format berikut:
-		**+ Kabupaten Nganjuk = nganjukkab**			**+ Kabupaten Blitar = blitarkab
-		**+ Kabupaten Bojonegoro = bojonegorokab**		**+ Kabupaten Bondowoso = bondowosokab
-		**+ Kabupaten Gresik = gresikkab**			**+ Kabupaten Jember = jemberkab
-		**+ Kabupaten Jombang = jombangkab**			**+ Kota Kediri = kedirikota
-		**+ Kabupaten Lamongan = lamongankab**			**+ Kabupaten Madiun = madiunkab
-		**+ Kota Madiun = madiunkota**				**+ Kota Malang = malangkota
-		**+ Kabupaten Mojokerto = mojokertokab**		**+ Kabupaten Ngawi = ngawikab
-		**+ Kabupaten Pacitan = pacitankab**			**+ Kabupaten Pamekasan = pamekasankab
-		**+ Kabupaten Pasuruan = pasuruankab**			**+ Kabupaten Ponorogo = ponorogokab
-		**+ Kota Probolinggo = probolinggokota**		**+ Kabupaten Sidoarjo = sidoarjokab
-		**+ Kabupaten Situbondo = situbondokab**		**+ Kabupaten Sumenep = sumenepkab
-		**+ Kota Surabaya = surabayakota**
+	+ sesuaikan tanggal data yang ingin di unduh pada bagian **min_date** dan **max_date**, sesuai rentang waktu yang diinginkan
+	+ sesuaikan kota/kabupaten pada bagian **region**, sesuai dengan data kota/kabupaten yang ingin di unduh. Pasktikan penamaan kota/kabupaten sesuai dengan format berikut:
+		+ Kabupaten Nganjuk = nganjukkab	
+		+ Kabupaten Bojonegoro = bojonegorokab	
+		+ Kabupaten Gresik = gresikkab
+		+ Kabupaten Jombang = jombangkab
+		+ Kabupaten Lamongan = lamongankab
+		+ Kota Madiun = madiunkota
+		+ Kabupaten Mojokerto = mojokertokab
+		+ Kabupaten Pacitan = pacitankab
+		+ Kabupaten Pasuruan = pasuruankab
+		+ Kota Probolinggo = probolinggokota
+		+ Kabupaten Situbondo = situbondokab
+		+ Kota Surabaya = surabayakota
+		+ Kabupaten Blitar = blitarkab
+	  	+ Kabupaten Bondowoso = bondowosokab
+   	  	+ Kabupaten Jember = jemberkab
+      	  	+ Kota Kediri = kedirikota
+      	  	+ Kabupaten Madiun = madiunkab
+      	  	+ Kota Malang = malangkota
+      	  	+ Kabupaten Ngawi = ngawikab
+      	  	+ Kabupaten Pamekasan = pamekasankab
+      	  	+ Kabupaten Ponorogo = ponorogokab
+      	  	+ Kabupaten Sidoarjo = sidoarjokab
+      	  	+ Kabupaten Sumenep = sumenepkab
 + File akan otomatis tersimpan dalam bentuk CSV di folder **scrapping_siskaperbapo_windows** sesuai dengan kota/kabupaten yang diunduh.
