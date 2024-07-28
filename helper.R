@@ -10,7 +10,7 @@
 # 3. Extract komponen fixed effect
 # 4. Buat interval band pakai bootstrap_irf, pastikan n.ahead sama dengan periode waktu yang ingin diforecast
 # 5. Forecast PDRB Nganjuk dengan mengalikan koefisien dengan nilai2 asli, gunakan standard error CI dari bootstrap
-# 6. Iterasi langkah ke 5 sampai n.ahead
+# 6. Iterasi langkah ke 5 sampai n.ahead (periode n ke depan)
 
 # Kode Kabupaten/Kota Nganjuk adalah 3518
 
