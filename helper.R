@@ -305,16 +305,17 @@ evaluasi_bgvar = function(pdrb_jatim_input, nhor_input) {
   panelvar_list = list()
   for (k in entity_kota) {
     
-    filter_df = in_sample_df %>% filter(entity==k)
+    filter_df = panelvar_df_merge %>% filter(entity==k)
     selected_filter = select(filter_df, -1)
     last_slice = ncol(selected_filter)-1
     selected_filter[, 2:last_slice] = lapply(selected_filter[, 2:last_slice], log)
-    
+  
     # Convert the year column to Date format (using the first day of each year)
     selected_filter$tanggal = as.Date(paste0(selected_filter$tahun, "-01-01"))
-    df_xts = xts(selected_filter[,2:last_slice], order.by = selected_filter$tanggal)
-    
-    panelvar_list[[k]] = df_xts
+
+    df_mts = ts(selected_filter[,2:last_slice], start = c(selected_filter$tahun[1], 1), frequency = 1)
+  
+    panelvar_list[[k]] = df_mts
     
   }
   
@@ -823,12 +824,13 @@ out_forecast_bgvar = function(pdrb_jatim_input, nhor_input) {
     selected_filter = select(filter_df, -1)
     last_slice = ncol(selected_filter)-1
     selected_filter[, 2:last_slice] = lapply(selected_filter[, 2:last_slice], log)
-    
+  
     # Convert the year column to Date format (using the first day of each year)
     selected_filter$tanggal = as.Date(paste0(selected_filter$tahun, "-01-01"))
-    df_xts = xts(selected_filter[,2:last_slice], order.by = selected_filter$tanggal)
-    
-    panelvar_list[[k]] = df_xts
+
+    df_mts = ts(selected_filter[,2:last_slice], start = c(selected_filter$tahun[1], 1), frequency = 1)
+  
+    panelvar_list[[k]] = df_mts
     
   }
   
