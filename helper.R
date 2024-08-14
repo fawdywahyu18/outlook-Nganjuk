@@ -305,7 +305,7 @@ evaluasi_bgvar = function(pdrb_jatim_input, nhor_input) {
   panelvar_list = list()
   for (k in entity_kota) {
     
-    filter_df = panelvar_df_merge %>% filter(entity==k)   # MASALAH ADA DI SINI, KALAU Pakai panelvar_df_merge, bisa jalan.
+    filter_df = in_sample_df %>% filter(entity==k)   # MASALAH ADA DI SINI, KALAU Pakai panelvar_df_merge, bisa jalan.
     selected_filter = select(filter_df, -1)
     last_slice = ncol(selected_filter)-1
     selected_filter[, 2:last_slice] = lapply(selected_filter[, 2:last_slice], log)
@@ -314,9 +314,6 @@ evaluasi_bgvar = function(pdrb_jatim_input, nhor_input) {
     selected_filter$tanggal = as.Date(paste0(selected_filter$tahun, "-01-01"))
     
     df_mts = ts(selected_filter[,2:last_slice], start = c(selected_filter$tahun[1], 1), frequency = 1)
-    tahun_akhir_in_sample = tail(in_sample_tahun, 1)
-    subset_mts = window(df_mts, start = c(selected_filter$tahun[1], 1), end = c(tahun_akhir_in_sample, 1))
-  
     panelvar_list[[k]] = df_mts
     
   }
