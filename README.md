@@ -30,3 +30,30 @@
 + Workflow ini dirancang untuk memproyeksikan PDRB total, industri pengolahan, dan sektor pertanian Kabupaten Nganjuk.
 + Script R yang digunakan dalam workflow ini dapat dimodifikasi sesuai dengan kebutuhan.
 + Penting untuk memperbarui data PDRB secara berkala untuk mendapatkan proyeksi yang akurat.
+
+**Spesifikasi Komputer:**
+------------------
+System Information
+------------------
+             Machine name: DESKTOP-HH446AV
+               Machine Id: {DCF02BE2-76CE-4FA4-9F88-8AB26AADDF76}
+         Operating System: Windows 11 Home Single Language 64-bit (10.0, Build 22631) (22621.ni_release.220506-1250)
+                 Language: English (Regional Setting: English)
+      System Manufacturer: Dell Inc.
+             System Model: Vostro 3681
+                     BIOS: 2.5.1 (type: UEFI)
+                Processor: Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz (16 CPUs), ~2.9GHz
+                   Memory: 8192MB RAM
+      Available OS Memory: 7940MB RAM
+                Page File: 9562MB used, 11041MB available
+              Windows Dir: C:\WINDOWS
+          DirectX Version: DirectX 12
+      DX Setup Parameters: Not found
+         User DPI Setting: 96 DPI (100 percent)
+       System DPI Setting: 96 DPI (100 percent)
+          DWM DPI Scaling: Disabled
+                 Miracast: Available, with HDCP
+Microsoft Graphics Hybrid: Not Supported
+ DirectX Database Version: 1.6.0
+           DxDiag Version: 10.00.22621.3527 64bit Unicode
+
